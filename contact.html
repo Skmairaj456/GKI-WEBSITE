@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — GKI Events and Travels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="watermark"><img src="images/gki-logo.png" alt="" class="watermark-image" aria-hidden="true"></div>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="GKI Events and Travels Home">
+                <img src="images/gki-logo.png" alt="GKI Events and Travels" class="nav-logo-image" loading="eager" decoding="async">
+            </a>
+            <div class="nav-right">
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html#events" class="nav-link">EVENTS</a>
+                    <a href="index.html#travels" class="nav-link">TRAVELS</a>
+                    <a href="index.html#activations" class="nav-link">ACTIVATIONS</a>
+                    <a href="index.html#about" class="nav-link">ABOUT</a>
+                </div>
+                <a href="contact.html" class="nav-button">CONTACT</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-headline">Let's Create<br>Something Exceptional</h1>
+            <p class="hero-tagline">We'd love to hear from you and discuss your event or travel needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-layout">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2 class="contact-info-heading">Contact Information</h2>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-label">Phone</div>
+                            <div class="contact-detail-value">
+                                <a href="tel:+918686318973" class="contact-phone-link">+91 86863 18973</a>
+                                <span class="contact-sep"> · </span>
+                                <a href="tel:+919493777097" class="contact-phone-link">+91 94937 77097</a>
+                                <span class="contact-sep"> · </span>
+                                <a href="https://wa.me/918686318973" class="contact-whatsapp-link" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-label">Landline</div>
+                            <div class="contact-detail-value"><a href="tel:+14035652443" class="contact-phone-link">+1 403 565 2443</a></div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-label">Email</div>
+                            <div class="contact-detail-value"><a href="mailto:info@gkigroups.com" class="contact-email-link">info@gkigroups.com</a></div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-label">Office Address</div>
+                            <div class="contact-detail-value">First Floor, 1-8-703/9/1 to 8/1,<br>Vidyanagar, Nallakunta Main Road,<br>Vidyanagar,<br>Hyderabad, Telangana - 500044</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2 class="contact-form-heading">Send a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-field">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button form-submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/gki-logo.png" alt="GKI Events and Travels" class="footer-logo-image" loading="lazy" decoding="async">
+            </div>
+            <p class="footer-legal">GKI Events and Travels (OPC) Private Limited</p>
+            <a href="index.html" class="footer-home">Back to home</a>
+            <div class="footer-copyright">
+                <p>&copy; 2025 GKI Events and Travels (OPC) Private Limited</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

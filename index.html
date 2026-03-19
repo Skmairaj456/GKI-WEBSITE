@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GKI Events and Travels — Curated Experiences</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="watermark"><img src="images/gki-logo.png" alt="" class="watermark-image" aria-hidden="true"></div>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="GKI Events and Travels Home">
+                <img src="images/gki-logo.png" alt="GKI Events and Travels" class="nav-logo-image" loading="eager" decoding="async">
+            </a>
+            <div class="nav-right">
+                <div class="nav-links" id="navLinks">
+                    <a href="#events" class="nav-link">EVENTS</a>
+                    <a href="#travels" class="nav-link">TRAVELS</a>
+                    <a href="#activations" class="nav-link">ACTIVATIONS</a>
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </div>
+                <a href="contact.html" class="nav-button">CONTACT</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="hero-headline">Curating Unforgettable<br>Experiences</h1>
+            <p class="hero-tagline">From bespoke events to exclusive travel journeys</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <p class="services-intro">Our services are designed to support end-to-end event execution, travel coordination, and brand activations across India.</p>
+            <div class="services-grid">
+                <div class="service-item" id="events">
+                    <h2 class="service-title">Events</h2>
+                    <ul class="service-list">
+                        <li>Corporate Events</li>
+                        <li>College Events</li>
+                        <li>Marathons</li>
+                        <li>Brand Launch Events</li>
+                        <li>Exhibitions &amp; Promotions</li>
+                    </ul>
+                </div>
+                <div class="service-item" id="travels">
+                    <h2 class="service-title">Travel Fleet</h2>
+                    <ul class="service-list">
+                        <li>Self-Drive Vehicles</li>
+                        <li>Domestic Travel Services</li>
+                        <li>Fleet &amp; Corporate Transport</li>
+                        <li>Event Logistics Support</li>
+                    </ul>
+                </div>
+                <div class="service-item" id="activations">
+                    <h2 class="service-title">Brand Activations</h2>
+                    <ul class="service-list">
+                        <li>Road Shows</li>
+                        <li>Mall Activations</li>
+                        <li>School Activations</li>
+                        <li>General Trade Activations</li>
+                        <li>Modern Trade Activations</li>
+                        <li>In-Store Branding</li>
+                        <li>Retail Branding</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Events Section -->
+    <section class="featured-events" id="featured-events">
+        <div class="featured-events-container">
+            <div class="featured-events-label">SHOWCASE</div>
+            <h2 class="featured-events-heading">Featured Events</h2>
+            <div class="featured-events-divider"></div>
+            <div class="events-grid">
+                <article class="event-card" data-event-id="0" role="button" tabindex="0" aria-label="View gallery: Ather College Event">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/ather-1.jpeg" alt="Ather College Event" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Ather College Event</h3>
+                        <p class="event-card-desc">End-to-end execution of Ather Energy’s product launch—stage, AV, and on-ground activation.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="1" role="button" tabindex="0" aria-label="View gallery: Arun Ice Cream – Guinness World Record Event">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/arun-1.jpeg" alt="Arun Ice Cream – Guinness World Record Event" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Arun Ice Cream – Guinness World Record Event</h3>
+                        <p class="event-card-desc">Large-scale Guinness World Record attempt for Arun Ice Cream, with logistics and crowd management.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="2" role="button" tabindex="0" aria-label="View gallery: SBI Green Marathon – Radio Mirchi">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/sbi-1.jpeg" alt="SBI Green Marathon – Radio Mirchi" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">SBI Green Marathon – Radio Mirchi</h3>
+                        <p class="event-card-desc">Event management and on-ground execution for the SBI Green Marathon in partnership with Radio Mirchi.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="3" role="button" tabindex="0" aria-label="View gallery: Hatsun School Activity">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/hatsun-1.jpeg" alt="Hatsun School Activity" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Hatsun School Activity</h3>
+                        <p class="event-card-desc">School activation and engagement activities for Hatsun Agro Product.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="4" role="button" tabindex="0" aria-label="View gallery: Arun Ice Creams School Event">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/arun-school-1.jpeg" alt="Arun Ice Creams School Event" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Arun Ice Creams School Event</h3>
+                        <p class="event-card-desc">School activation and engagement activities for Arun Ice Cream.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="5" role="button" tabindex="0" aria-label="View gallery: Hero College Promotion">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/hero-college-1.jpeg" alt="Hero College Promotion" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Hero College Promotion</h3>
+                        <p class="event-card-desc">College activation and brand promotion for Hero MotoCorp.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+                <article class="event-card" data-event-id="6" role="button" tabindex="0" aria-label="View gallery: Aha College Event">
+                    <div class="event-card-image-wrap">
+                        <img src="images/events/aha-college-1.jpeg" alt="Aha College Event" class="event-card-image" loading="lazy">
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title">Aha College Event</h3>
+                        <p class="event-card-desc">College activation and brand promotion for Aha.</p>
+                        <span class="event-card-hint">View gallery</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Philosophy Section -->
+    <section class="experience" id="about">
+        <div class="experience-container">
+            <h2 class="experience-heading">Our Philosophy</h2>
+            <div class="experience-content">
+                <p class="experience-text">GKI Events and Travels stands at the intersection of precision and passion. With years of expertise in event management and travel curation, we transform visions into reality. Our approach is rooted in understanding the unique needs of each client, ensuring every detail reflects your aspirations. From intimate gatherings to grand celebrations, from local explorations to nationwide journeys—we orchestrate experiences that resonate long after the moment passes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="why-choose-container">
+            <h2 class="why-heading">Why Choose GKI</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-title">Craftsmanship</div>
+                    <p class="why-text">Meticulous attention to every detail ensures flawless execution.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-title">Attention to Detail</div>
+                    <p class="why-text">Every element is thoughtfully considered and perfectly executed.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-title">Premium Execution</div>
+                    <p class="why-text">Years of expertise delivering exceptional experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Profile Section -->
+    <section class="founder" id="founder">
+        <div class="founder-container">
+            <div class="founder-label">FOUNDER PROFILE</div>
+            <div class="founder-layout">
+                <div class="founder-image-wrapper">
+                    <div class="founder-image">
+                        <img src="../GKI about/WhatsApp Image 2026-01-18 at 8.40.54 PM.jpeg" alt="Mr. A. Damien Richard - Founder & Managing Director" class="founder-portrait">
+                    </div>
+                </div>
+                <div class="founder-content">
+                    <h2 class="founder-name">Mr. A. Damien Richard</h2>
+                    <div class="founder-subtitle-highlight">
+                        <p class="founder-subtitle">Founder & Managing Director<br>GKI Events and Travels (OPC) Private Limited</p>
+                    </div>
+                    <div class="founder-divider"></div>
+                    <div class="founder-bio">
+                        <p class="founder-text">Mr. A. Damien Richard began his career as a freelancer and daily-wage promoter, gaining hands-on experience at the grassroots level of brand promotions and field marketing. Through consistent performance and dedication, he progressed into structured roles within the industry.</p>
+                        <p class="founder-text">Subsequently, due to certain uncertainties and an uncomfortable work environment, he resigned from his position as Director of the organization. With a clear vision and renewed focus, he established his own venture, <strong>GKI Events and Travels (OPC) Private Limited</strong>, aiming to deliver professional, reliable, and innovative event management and travel solutions across India.</p>
+                        <p class="founder-text">From <strong>2017 onwards</strong>, Mr. A. Damien Richard expanded his professional journey by working as a vendor for multiple multinational agencies across India, successfully delivering activation and event projects on a national scale. Building on this experience, he later co-founded a company in partnership under the name <strong>Richvin Events and Activations India Private Limited</strong>.</p>
+                        <p class="founder-text">A few years later, he joined <strong>Wings Brand Activation – Hyderabad Branch</strong>, where he served as an Operations Manager for a period of two years. In this role, he was responsible for managing operations, coordinating teams, and executing large-scale brand activation campaigns, significantly strengthening his leadership and operational expertise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Esteemed Clients Section -->
+    <section class="esteemed-clients">
+        <div class="esteemed-clients-container">
+            <div class="clients-label">TRUSTED BY LEADING BRANDS</div>
+            <h2 class="clients-main-heading">Our Esteemed Clients</h2>
+            <p class="clients-subheading">Proud to collaborate with industry leaders across events, travel, and brand activations</p>
+            <div class="clients-divider"></div>
+            <div class="clients-logo-grid">
+                <div class="client-logo-item">
+                    <img src="logos/hatsun-agro-product.png" alt="Hatsun Agro Product" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/arun-ice-cream.png" alt="Arun Ice Cream" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/arokya-milk.png" alt="Arokya Milk" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/ibaco.png" alt="Ibaco" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/sunfeast.png" alt="Sunfeast" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/yippee.webp" alt="YiPPee!" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/top-ramen.png" alt="Top Ramen" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/epidamia.png" alt="Epidamia" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/hanobar.png" alt="Hanobar" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/aha.png" alt="Aha" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/ather-energy.png" alt="Ather Energy" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/royal-enfield.png" alt="Royal Enfield" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/suzuki.png" alt="Suzuki" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/tvs-motor.png" alt="TVS Motor" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/yamaha.png" alt="Yamaha" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/hero-motocorp.png" alt="Hero MotoCorp" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/radio-mirchi.png" alt="Radio Mirchi" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/tamada-media.png" alt="Tamada Media" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/red-fm.png" alt="Red FM" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/big-fm.png" alt="Big FM" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/groupm.png" alt="GroupM" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/kingfisher.png" alt="Kingfisher" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/red-bull.svg" alt="Red Bull" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/tata-group.png" alt="Tata Group" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/indifest.png" alt="IndiFest" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/jsw-group.png" alt="JSW Group" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/itc-limited.png" alt="ITC Limited" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/malabar.png" alt="Malabar Gold &amp; Diamonds" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/grt-jewellers.png" alt="GRT Jewellers" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/freedom-oil.png" alt="Freedom Oil" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/dainik-jagran-solutions.png" alt="Dainik Jagran Solutions" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/dewars.png" alt="Dewar's" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/william-lawsons.png" alt="William Lawson's" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/tata-glucose.png" alt="Tata Glucose" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/makuta-developers.png" alt="Makuta Developers" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/aditya-builders.png" alt="Aditya Builders" class="client-logo" loading="lazy">
+                </div>
+                <div class="client-logo-item">
+                    <img src="logos/triumph-motorcycles.png" alt="Triumph Motorcycles" class="client-logo" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <p class="cta-text">Ready to begin your journey?</p>
+            <a href="contact.html" class="cta-button">CONTACT US</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/gki-logo.png" alt="GKI Events and Travels" class="footer-logo-image" loading="lazy" decoding="async">
+            </div>
+            <p class="footer-legal">GKI Events and Travels (OPC) Private Limited</p>
+            <div class="footer-copyright">
+                <p>&copy; 2025 GKI Events and Travels (OPC) Private Limited</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Event Gallery Modal (Cinematic Fullscreen) -->
+    <div id="eventGalleryModal" class="gallery-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="galleryModalTitle">
+        <div class="gallery-modal-backdrop" id="galleryModalBackdrop"></div>
+        <div class="gallery-modal-content">
+            <button type="button" class="gallery-modal-close" id="galleryModalClose" aria-label="Close gallery">&times;</button>
+            <h2 id="galleryModalTitle" class="gallery-modal-title"></h2>
+            <div class="gallery-cinematic-layout">
+                <div class="gallery-featured">
+                    <div class="gallery-featured-inner" id="galleryFeatured">
+                        <!-- Main image/video injected by JS -->
+                    </div>
+                    <button type="button" class="gallery-nav gallery-nav-prev" id="galleryNavPrev" aria-label="Previous">&lsaquo;</button>
+                    <button type="button" class="gallery-nav gallery-nav-next" id="galleryNavNext" aria-label="Next">&rsaquo;</button>
+                </div>
+                <div class="gallery-thumbnails-wrap">
+                    <div class="gallery-thumbnails" id="galleryThumbnails"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
