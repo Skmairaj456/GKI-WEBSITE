@@ -79,8 +79,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
-        section.classList.add('scroll-reveal');
-        observer.observe(section);
+        if (section.id !== 'founder') {
+            section.classList.add('scroll-reveal');
+            observer.observe(section);
+        } else {
+            section.classList.add('revealed');
+        }
     });
     
     // Featured Events cards fade-in on scroll (staggered)
